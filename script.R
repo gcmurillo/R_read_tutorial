@@ -6,3 +6,6 @@ t2
 
 t3 <- read.table("C:\\Users\\geancarlo\\Documents\\GitHub\\R_read_tutorial\\tabla_sin_cabecera.txt", header=F);
 t3
+
+t4 <- read.table("C:\\Users\\geancarlo\\Documents\\GitHub\\R_read_tutorial\\tabla_4.csv", header = T, sep = ",")
+t4
