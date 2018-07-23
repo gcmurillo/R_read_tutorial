@@ -9,3 +9,10 @@ t3
 
 t4 <- read.table("C:\\Users\\geancarlo\\Documents\\GitHub\\R_read_tutorial\\tabla_4.csv", header = T, sep = ",")
 t4
+
+library(xlsx)
+t5 <- read.xlsx("C:\\Users\\geancarlo\\Documents\\GitHub\\R_read_tutorial\\myexcel.xlsx", 1)
+t5
+
+t6 <- read.xlsx("C:\\Users\\geancarlo\\Documents\\GitHub\\R_read_tutorial\\myexcel.xlsx", sheetName = "mysheet")
+t6
